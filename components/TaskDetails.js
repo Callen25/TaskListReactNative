@@ -61,7 +61,7 @@ export default class TaskDetails extends Component<Props> {
           defaultValue={this.state.title}
           onChangeText={(text) => {
             this.state.title = text
-            this.sendable = true
+            this.state.sendable = true
           }}
           />
         </View>
